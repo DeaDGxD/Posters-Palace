@@ -9,6 +9,7 @@
 <body>
 <div class='posting'>
     <form method="post" action="">
+        <h3 class="hcomm">Write your comment:</h3>
         <label>Username</label>
         <input name="username" type="text" max="25" autocomplete="off" required>
         <br>
@@ -24,7 +25,9 @@
     <div class="stuff">
         <p>-----------------------------------------------</p>
         <h3>Username: {{ c[0] }}</h3>
-        <p>Comment: {{ c[1] }}</p>
+        <div class="comm">
+            <p>Comment: {{ c[1] }}</p>
+        </div>
         <small>{{ c[2] }}</small>
     </div>
 {% endfor %}
