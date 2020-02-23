@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17a690c7-5c87-4afc-8555-26c68c36e835" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -117,7 +117,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -143,18 +143,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582478398969</updated>
-      <workItem from="1582478420897" duration="8322000" />
+      <workItem from="1582478420897" duration="8591000" />
     </task>
+    <task id="LOCAL-00001" summary="make it work">
+      <created>1582486834393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582486834393</updated>
+    </task>
+    <task id="LOCAL-00002" summary="make it work">
+      <created>1582486970554</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582486970554</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="make it work" />
+    <option name="LAST_COMMIT_MESSAGE" value="make it work" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="494" y="56" key="CommitChangelistDialog2" timestamp="1582486833600">
+    <state x="494" y="56" key="CommitChangelistDialog2" timestamp="1582486969906">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="494" y="56" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1582486833600" />
+    <state x="494" y="56" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1582486969906" />
     <state width="1871" height="274" key="GridCell.Tab.0.bottom" timestamp="1582486484978">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -171,10 +190,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1871" height="274" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1582486484978" />
-    <state x="452" y="195" key="Vcs.Push.Dialog.v2" timestamp="1582486836962">
+    <state x="452" y="195" key="Vcs.Push.Dialog.v2" timestamp="1582486972063">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="452" y="195" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1582486836962" />
+    <state x="452" y="195" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1582486972063" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
