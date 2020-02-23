@@ -1,0 +1,22 @@
+body{
+    color: white;
+    background-color: black;
+}
+.posting{
+    right: 3em;
+    position: absolute;
+}
+.area{
+    height: 5em;
+    width: 12.5em;
+    margin-top: .4em;
+    margin-left: 2.8em;
+}
+.but{
+    position: absolute;
+    right: .1em;
+    margin-top: .6em;
+}
+.stuff{
+    text-align: center;
+}

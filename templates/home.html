@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Posters Palace</title>
+    <link rel="icon" href="/static/icon.gif" type="image/gif">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class='posting'>
+    <form method="post" action="">
+        <label>Username</label>
+        <input name="username" type="text" max="25" autocomplete="off" required>
+        <br>
+        <label>Post</label>
+        <textarea class="area" name="message" max="3000" autocomplete="off" autocapitalize="sentences" spellcheck="true" required></textarea>
+        <br>
+        <button class="but" type="submit">Submit</button>
+    </form>
+</div >
+<h1 style="text-align: center">Welcome to Posters Palace</h1>
+<p style="text-align: center">_____________________________________</p>
+{% for c in comment %}
+    <div class="stuff">
+        <p>-----------------------------------------------</p>
+        <h3>Username: {{ c[0] }}</h3>
+        <p>Comment: {{ c[1] }}</p>
+        <small>{{ c[2] }}</small>
+    </div>
+{% endfor %}
+
+</body>
+</html>
