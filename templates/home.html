@@ -7,29 +7,29 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-<div class='posting'>
-    <form method="post" action="">
-        <h3 class="hcomm">Write your comment:</h3>
-        <label>Username</label>
-        <input name="username" type="text" max="25" autocomplete="off" required>
-        <br>
-        <label>Post</label>
+<div class="headz">
+    <h1 class="welcome">Welcome to Posters Palace</h1>
+    <p class="line">_____________________________________</p>
+</div>
+<form class="posting" method="post" action="">
+    <h3 class="hcomm">Write your comment:</h3>
+    <label>Username</label>
+    <input class="username" name="username" type="text" max="25" autocomplete="off" required>
+    <br>
+    <label>Post</label>
         <textarea class="area" name="message" max="3000" autocomplete="off" autocapitalize="sentences" spellcheck="true" required></textarea>
-        <br>
-        <button class="but" type="submit">Submit</button>
-    </form>
-</div >
-<h1 style="text-align: center">Welcome to Posters Palace</h1>
-<p style="text-align: center">_____________________________________</p>
+    <br>
+    <button class="but" type="submit">Submit</button>
+</form>
 {% for c in comment %}
-    <div class="stuff">
-        <p>-----------------------------------------------</p>
-        <h3>Username: {{ c[0] }}</h3>
-        <div class="comm">
-            <p>Comment: {{ c[1] }}</p>
-        </div>
-        <small>{{ c[2] }}</small>
+<div class="stuff">
+    <p>-----------------------------------------------</p>
+    <h3>Username: {{ c[0] }}</h3>
+    <div class="comm">
+        <p>Comment: {{ c[1] }}</p>
     </div>
+    <small>{{ c[2] }}</small>
+</div>
 {% endfor %}
 
 </body>
