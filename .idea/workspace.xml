@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17a690c7-5c87-4afc-8555-26c68c36e835" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments.db" beforeDir="false" afterPath="$PROJECT_DIR$/comments.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +20,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="comments" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -145,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582478398969</updated>
-      <workItem from="1582478420897" duration="17696000" />
+      <workItem from="1582478420897" duration="17977000" />
     </task>
     <task id="LOCAL-00001" summary="make it work">
       <created>1582486834393</created>
@@ -175,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582497750002</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="css overflow fix and some astetic changes">
+      <created>1582510082463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582510082463</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,10 +196,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="css overflow fix and some astetic changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="494" y="56" key="CommitChangelistDialog2" timestamp="1582497748936">
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582510323902">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="494" y="56" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1582497748936" />
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1582510323902" />
+    <state x="494" y="56" key="CommitChangelistDialog2" timestamp="1582510081790">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="494" y="56" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1582510081790" />
     <state width="1871" height="274" key="GridCell.Tab.0.bottom" timestamp="1582510054573">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -223,10 +236,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1871" height="339" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1582508418265" />
-    <state x="452" y="195" key="Vcs.Push.Dialog.v2" timestamp="1582497752572">
+    <state width="253" height="548" key="HiddenNamespacesPopup" timestamp="1582510317123">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="452" y="195" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1582497752572" />
+    <state width="253" height="548" key="HiddenNamespacesPopup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1582510317123" />
+    <state x="452" y="195" key="Vcs.Push.Dialog.v2" timestamp="1582510083844">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="452" y="195" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1582510083844" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
